@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYRS - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Internal CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Flexbox for header and navigation */
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: static;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: bold;
+            position: relative;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #about {
+            background-color: #e3f2fd;
+        }
+
+        #services {
+            background-color: #f1f8e9;
+        }
+
+        #services ul {
+            list-style-type: none;
+        }
+
+        #services ul li {
+            margin: 15px 0;
+        }
+
+        #services ul li a {
+            color: #2196F3;
+            font-size: 1.1rem;
+            text-decoration: none;
+        }
+
+        #services ul li a:hover {
+            text-decoration: underline;
+        }
+
+        #contact {
+            background-color: #fff3e0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            position:relative;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html"><img src="hyrs logo.png" width="75" height="50"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+<section id="about">
+    <h2>About Us</h2>
+    <p>HYRS (Harness Your Remarkable Strength) connects students with experienced tutors for personalized, flexible home learning. Our goal is to make education more accessible and efficient.</p>
+    <p>We aim to:</p>
+    <ul>
+        <li><strong>Empower Students:</strong> Let students choose tutors based on their needs and schedules.</li>
+        <li><strong>Support Tutors:</strong> Provide tutors with more opportunities to teach and expand their reach.</li>
+        <li><strong>Ensure Quality:</strong> Work with only qualified tutors to guarantee quality education.</li>
+        <li><strong>Foster Flexibility:</strong> Allow both students and tutors to create personalized learning schedules.</li>
+    </ul>
+    <p>HYRS is committed to providing top-quality learning experiences for both students and tutors.</p>
+</section>
+
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><a href="page1.html">Find a Tutor (For Students)</a></li>
+            <li><a href="page2.html">Find a Home Tuition (For Tutors)</a></li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: mishra.harshit1979@gmail.com</p>
+        <p>Phone: +91 9554387060</p>
+    </section>
+    
+    <footer >
+        <p>&copy; 2025 HYRS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
