@@ -1,4 +1,4 @@
-/* General Styling */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* Header */
+
 header {
     background-color: #0073e6;
     color: white;
@@ -31,7 +31,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Sections */
+
 section {
     padding: 20px;
     margin: 20px auto;
@@ -41,7 +41,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Links */
+
 a {
     color: #0073e6;
 }
@@ -50,7 +50,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 10px;
